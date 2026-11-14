@@ -5,5 +5,5 @@ export const REGIONS = [
  {id:'hoian',name:'Hoi An',subtitle:'Central coast · Thu Bon River',center:[15.8801,108.338],zoom:12,kind:'River & coastal flooding',point:'Hoi An reference point',local:true,outline:[[16.02,108.16],[16.01,108.39],[15.84,108.46],[15.73,108.28],[15.81,108.14]],scenario:{future:128,past:230,soil:.42,elevation:4,riverRise:.22},localCenter:[15.878,108.331],zones:[{lat:15.874,lng:108.329,radius:350,level:3},{lat:15.877,lng:108.338,radius:350,level:2},{lat:15.885,lng:108.333,radius:300,level:1}]},
  {id:'north',name:'Northern Highlands',subtitle:'Upland catchment · Lao Cai',center:[22.485,103.971],zoom:8,kind:'Flash-flood context',point:'Lao Cai reference point',outline:[[22.0,102.25],[22.7,102.85],[22.7,103.45],[23.2,104.15],[23.45,105.15],[23.0,106.1],[22.3,106.55],[21.8,105.7],[21.3,104.4],[21.2,103.3]],scenario:{future:9,past:20,soil:.21,elevation:580,riverRise:.02}}
 ];
-export const LEVELS=[{name:'Low',color:'#2f9476',soft:'#eaf5ef'},{name:'Watch',color:'#c3a13e',soft:'#fbf5e3'},{name:'High',color:'#dc8644',soft:'#fff0e5'},{name:'Very high',color:'#cf5b59',soft:'#fbedeb'}];
+export const LEVELS=[{name:'Low',color:'#087c50',soft:'#eaf5ef'},{name:'Watch',color:'#b98500',soft:'#fbf5e3'},{name:'High',color:'#df6818',soft:'#fff0e5'},{name:'Very high',color:'#d33443',soft:'#fbedeb'}];
 export const getRegion=id=>REGIONS.find(r=>r.id===id);

@@ -19,7 +19,7 @@ Open http://127.0.0.1:4173. The refresh command requests NASA POWER and Open-Met
 - NASA POWER Daily Point API: PRECTOTCORR, mm/day. Latest three consecutive complete UTC days. The response identifies GEOSIT as its source. This is not GPM IMERG.
 - Open-Meteo Forecast API: hourly precipitation, 0–1 cm model soil moisture, and elevation metadata. This is not NASA satellite soil moisture.
 - johan/world.geo.json: bundled geographic country outlines. Five study polygons are approximate project-defined envelopes, not official administrative boundaries.
-- OpenStreetMap Standard: optional online street basemap. Default is the bundled outline map, so core map interactions work without tiles.
+- OpenFreeMap Liberty vector basemap: city, neighbourhood, road, waterway and building context from OpenStreetMap / OpenMapTiles, rendered with MapLibre GL JS 5.12.0 and Leaflet. Default view loads detailed online geography; bundled country outlines remain available if that service cannot load. This does not increase the spatial resolution of the flood screening data. Exact style and embedded tile/font/sprite source URLs are linked in the website.
 - OSRM: bundled original driving-route geometries for example endpoints. Hue has two returned alternatives; Hoi An has one. Road closures and pedestrian evacuation suitability are not available.
 - Local facility points, storm inputs and flood circles: clearly labelled illustrative project data.
 
