@@ -2,6 +2,12 @@
 
 An English student research prototype with five regional study areas, a map, source-backed screening dashboard, and local scenario layers for Hue and Hoi An.
 
+## Live website
+
+GitHub Pages deploys the contents of `dist/` automatically after every push to `main`:
+
+https://heliosli6767.github.io/vietnam-flood-watch/
+
 ## Run locally
 
 Requires Node.js 20+. No package installation or build step is required.
