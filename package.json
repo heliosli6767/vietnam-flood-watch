@@ -1,0 +1,1 @@
+{"name":"vietnam-flood-watch","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node scripts/serve.mjs","refresh-data":"node scripts/refresh-data.mjs","test":"node --test scripts/model.test.mjs"}}

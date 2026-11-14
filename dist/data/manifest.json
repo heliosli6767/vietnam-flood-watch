@@ -1,0 +1,65 @@
+{
+  "fetchedAt": "2026-11-14T10:33:59.694Z",
+  "regions": {
+    "mekong": {
+      "nasa": {
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR&community=AG&longitude=105.747&latitude=10.045&start=20261030&end=20261113&format=JSON&time-standard=UTC",
+        "file": "data/mekong-nasa.json",
+        "fetchedAt": "2026-11-14T10:34:00.570Z"
+      },
+      "weather": {
+        "url": "https://api.open-meteo.com/v1/forecast?latitude=10.045&longitude=105.747&hourly=precipitation,soil_moisture_0_to_1cm&forecast_days=3&past_days=1&timezone=UTC&timeformat=unixtime",
+        "file": "data/mekong-weather.json",
+        "fetchedAt": "2026-11-14T10:34:01.837Z"
+      }
+    },
+    "hcmc": {
+      "nasa": {
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR&community=AG&longitude=106.7&latitude=10.776&start=20261030&end=20261113&format=JSON&time-standard=UTC",
+        "file": "data/hcmc-nasa.json",
+        "fetchedAt": "2026-11-14T10:34:02.476Z"
+      },
+      "weather": {
+        "url": "https://api.open-meteo.com/v1/forecast?latitude=10.776&longitude=106.7&hourly=precipitation,soil_moisture_0_to_1cm&forecast_days=3&past_days=1&timezone=UTC&timeformat=unixtime",
+        "file": "data/hcmc-weather.json",
+        "fetchedAt": "2026-11-14T10:34:02.751Z"
+      }
+    },
+    "hue": {
+      "nasa": {
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR&community=AG&longitude=107.5909&latitude=16.4637&start=20261030&end=20261113&format=JSON&time-standard=UTC",
+        "file": "data/hue-nasa.json",
+        "fetchedAt": "2026-11-14T10:34:03.422Z"
+      },
+      "weather": {
+        "url": "https://api.open-meteo.com/v1/forecast?latitude=16.4637&longitude=107.5909&hourly=precipitation,soil_moisture_0_to_1cm&forecast_days=3&past_days=1&timezone=UTC&timeformat=unixtime",
+        "file": "data/hue-weather.json",
+        "fetchedAt": "2026-11-14T10:34:03.695Z"
+      }
+    },
+    "hoian": {
+      "nasa": {
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR&community=AG&longitude=108.338&latitude=15.8801&start=20261030&end=20261113&format=JSON&time-standard=UTC",
+        "file": "data/hoian-nasa.json",
+        "fetchedAt": "2026-11-14T10:34:04.370Z"
+      },
+      "weather": {
+        "url": "https://api.open-meteo.com/v1/forecast?latitude=15.8801&longitude=108.338&hourly=precipitation,soil_moisture_0_to_1cm&forecast_days=3&past_days=1&timezone=UTC&timeformat=unixtime",
+        "file": "data/hoian-weather.json",
+        "fetchedAt": "2026-11-14T10:34:04.593Z"
+      }
+    },
+    "north": {
+      "nasa": {
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR&community=AG&longitude=103.971&latitude=22.485&start=20261030&end=20261113&format=JSON&time-standard=UTC",
+        "file": "data/north-nasa.json",
+        "fetchedAt": "2026-11-14T10:34:04.881Z"
+      },
+      "weather": {
+        "url": "https://api.open-meteo.com/v1/forecast?latitude=22.485&longitude=103.971&hourly=precipitation,soil_moisture_0_to_1cm&forecast_days=3&past_days=1&timezone=UTC&timeformat=unixtime",
+        "file": "data/north-weather.json",
+        "fetchedAt": "2026-11-14T10:34:05.107Z"
+      }
+    }
+  }
+}
